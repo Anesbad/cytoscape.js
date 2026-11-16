@@ -121,8 +121,8 @@ export const gcd = ( a, b ) => {
 // you try to take the GCD of two floating-point numbers you will end up with
 // either zero or some extremely small number that is almost zero)
 export const gcdMultipleZeroIfNonInt = ( arr ) => {
-  let out = arr[0];
-  for ( let i = 0; i < arr.length; i++ ) {
+  var out = arr[0];
+  for ( var i = 0; i < arr.length; i++ ) {
       if ( !is.integer( arr[i] ) ) {
         return 0;
       } else if (i > 0) {
@@ -658,14 +658,14 @@ export const inBezierVicinity = ( x, y, x1, y1, x2, y2, x3, y3, tolerance ) => {
 export const solveQuadratic = ( a, b, c, val ) => {
   c -= val;
 
-  let r = b * b - 4 * a * c;
+  var r = b * b - 4 * a * c;
 
   if( r < 0 ){ return []; }
 
-  let sqrtR = Math.sqrt( r );
-  let denom = 2 * a;
-  let root1 = ( -b + sqrtR ) / denom;
-  let root2 = ( -b - sqrtR ) / denom;
+  var sqrtR = Math.sqrt( r );
+  var denom = 2 * a;
+  var root1 = ( -b + sqrtR ) / denom;
+  var root2 = ( -b - sqrtR ) / denom;
 
   return [ root1, root2 ];
 };

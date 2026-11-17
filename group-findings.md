@@ -1,7 +1,7 @@
-# Cytoscape.js — Combined Legacy System Characteristics
+# Cytoscape.js - Combined Legacy System Characteristics
 
 **Group:** Two Brain Cells  
-**Compiled by:** Zaky Muhammad Hasyim — 24051682  
+**Compiled by:** Zaky Muhammad Hasyim (24051682)  
 **Source:** Tutorial 4_5 Updated 2.pdf  
 **Scope:** Cytoscape.js 3.34.4 baseline and documented group changes  
 **Status:** Proposed findings for group review; evidence compilation updated 17 November 2026
